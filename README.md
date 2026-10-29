@@ -4,7 +4,9 @@ Official Windows downloads for X1MERA Bot.
 
 ## Testnet Preview
 
-The first preview is being prepared for publication. Downloadable installers will appear on the [Releases page](https://github.com/ycnex4/x1mera-bot-downloads/releases).
+[Download Windows installer — 0.1.0 Testnet Preview 1](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview1/X1MERA-Bot-0.1.0-testnet.preview1-windows-x64-setup.exe)
+
+[Portable ZIP](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview1/X1MERA-Bot-0.1.0-testnet.preview1-windows-x64-portable.zip) · [Release notes](https://github.com/ycnex4/x1mera-bot-downloads/releases/tag/v0.1.0-testnet.preview1) · [SHA256 checksums](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview1/SHA256SUMS.txt)
 
 This preview provides:
 - a Windows installer with the required runtime included;
@@ -21,7 +23,7 @@ The installer is currently **unsigned**. Manual Windows desktop, update and unin
 
 ## Installation
 
-After the preview is published:
+To install the preview:
 1. Open Releases and choose the marked testnet prerelease.
 2. Download the file ending in `windows-x64-setup.exe`.
 3. Install it for your Windows user and open X1MERA Bot Testnet from the Start menu.
