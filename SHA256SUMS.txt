@@ -1,0 +1,2 @@
+88d54b94c8cb5513b0ec1ae7d5071b4bb72b720272f3cb041153b6e557ec1789  X1MERA-Bot-0.1.0-testnet.preview1-windows-x64-setup.exe
+45c4f1d52a625ab77cd509000157bb37af0a52b95b6ed81f728d7a136574d3d9  X1MERA-Bot-0.1.0-testnet.preview1-windows-x64-portable.zip
