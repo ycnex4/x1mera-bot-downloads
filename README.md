@@ -2,39 +2,31 @@
 
 Official Windows downloads for X1MERA Bot.
 
-## Testnet Preview
+## Testnet Preview 25
 
-[Download Windows installer — 0.1.0 Testnet Preview 1](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview1/X1MERA-Bot-0.1.0-testnet.preview1-windows-x64-setup.exe)
+[Download Windows installer — 0.1.0 Testnet Preview 25](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview25/X1MERA-Bot-0.1.0-testnet.preview25-windows-x64-setup.exe)
 
-[Portable ZIP](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview1/X1MERA-Bot-0.1.0-testnet.preview1-windows-x64-portable.zip) · [Release notes](https://github.com/ycnex4/x1mera-bot-downloads/releases/tag/v0.1.0-testnet.preview1) · [SHA256 checksums](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview1/SHA256SUMS.txt)
+[Release notes](https://github.com/ycnex4/x1mera-bot-downloads/releases/tag/v0.1.0-testnet.preview25) · [SHA256 checksums](https://github.com/ycnex4/x1mera-bot-downloads/releases/download/v0.1.0-testnet.preview25/SHA256SUMS-preview25.txt)
 
-This preview provides:
-- a Windows installer with the required runtime included;
-- a local executor wallet protected with Windows DPAPI;
-- job inspection for X1 Testnet.
+Execute Core jobs on X1 Testnet with a separate local executor wallet protected by Windows DPAPI. Connect the bot to https://testnet.x1mera.com using its one-time connection code. The bot simulates transactions and checks saved operations. Updates are checked manually; installers are never installed automatically.
 
-**Transaction signing and execution are disabled in this preview.** This is an early testing build, not a mainnet release.
+## Requirements and installation
 
-## Requirements
+Windows 10 (version 2004 or later) or Windows 11, x64. No separate Python, WSL, Node.js or local server installation required.
 
-Windows 10 (version 2004 or later) or Windows 11, x64. No separate Python, WSL, Node.js or local server installation is required. Internet access is needed for job inspection.
+Download the setup file above and install it for your Windows user. Close the bot before updating; install over the existing version to preserve the executor wallet and operation journal.
 
-The installer is currently **unsigned**. Manual Windows desktop, update and uninstall checks are still in progress.
+Testnet only. The installer is **unsigned**. Do not enter your main wallet private key or seed phrase into the application.
 
-## Installation
+## Installer checksum
 
-To install the preview:
-1. Open Releases and choose the marked testnet prerelease.
-2. Download the file ending in `windows-x64-setup.exe`.
-3. Install it for your Windows user and open X1MERA Bot Testnet from the Start menu.
+SHA256 of `X1MERA-Bot-0.1.0-testnet.preview25-windows-x64-setup.exe`:
 
-A portable ZIP will also be available. Extract its entire contents and keep the supporting files alongside the executable.
+```text
+f8b451346554c503747d85e1fccbba09715db43ed94d1b50a1923258d7e2df01
+```
 
-Do not enter your main wallet private key or seed phrase into the application. The bot uses a separate executor wallet. Local wallet recovery/export and cross-computer migration are not available in this preview.
-
-## Checksums
-
-The expected SHA256 values for the first candidate are in [SHA256SUMS.txt](SHA256SUMS.txt). Match the exact filename and version before comparing a downloaded file.
+Match the exact filename and version before comparing a downloaded file. Older release assets and their checksums remain historical.
 
 ## About this repository
 
